@@ -8,6 +8,7 @@ packages:
   gitUsername: santhu736852
   gitBranch: main
 - name: CustomPackage
+  version: "1.0"
   gitServerName: GithubOrigin
   gitUrl: https://github.com/Munatri
   gitUsername: Munatri
@@ -17,7 +18,13 @@ services:
   packages:
   - name: NewProjDocTypeTestProject
     version: "1.0"
+  - name: CustomPackage
+    version: "1.0"
 - serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.1120
+- serviceName: pub.math:randomDouble
   packages:
   - name: WmPublic
     version: 11.1.0.0.1120
