@@ -7,6 +7,11 @@ packages:
   gitUrl: https://github.com/santhu736852
   gitUsername: santhu736852
   gitBranch: main
+- name: CustomPackage
+  gitServerName: GithubOrigin
+  gitUrl: https://github.com/Munatri
+  gitUsername: Munatri
+  gitBranch: main
 services:
 - serviceName: project.newprojdoctypetest.integrations:getDate
   packages:
