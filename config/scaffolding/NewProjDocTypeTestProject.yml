@@ -8,11 +8,11 @@ packages:
   gitUsername: santhu736852
   gitBranch: main
 services:
-- serviceName: project.newprojdoctypetest.integrations:random
+- serviceName: project.newprojdoctypetest.integrations:getDate
   packages:
   - name: NewProjDocTypeTestProject
     version: "1.0"
-- serviceName: pub.math:randomDouble
+- serviceName: pub.date:getCurrentDate
   packages:
   - name: WmPublic
     version: 11.1.0.0.1120
